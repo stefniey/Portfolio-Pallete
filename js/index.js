@@ -1,28 +1,34 @@
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
+const loader = document.getElementById("preloader");
+
+
+window.addEventListener("load", function () {
+  loader.style.display = "none";
+});
 
 hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
 
 });
 
-document.querySelectorAll(".nav-link").forEach(n => n. addEventListener("click", () => {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
+document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
 }));
 
 
 let viewAllBtn = document.querySelector('#view-all');
 let currentItem = 3;
 
-viewAllBtn.onclick = () =>{
-    let cards =[...document.querySelectorAll('.center .titles .cards')];
-    for (var i = currentItem; i < currentItem + 3; i++){
-        cards[i].style.display = 'inline-block';
-    }
-    currentItem += 4;
-if (currentItem >= cards.length) {
+viewAllBtn.onclick = () => {
+  let cards = [...document.querySelectorAll('.center .titles .cards')];
+  for (var i = currentItem; i < currentItem + 5; i++) {
+    cards[i].style.display = 'inline-block';
+  }
+  currentItem += 6;
+  if (currentItem >= cards.length) {
     viewAllBtn.style.display = "none";
   }
 };
