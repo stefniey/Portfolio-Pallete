@@ -124,7 +124,7 @@ header {
 
 .text {
     width: 65%;
-    padding: 0 0 0 4%;
+    padding: 0 10px;
     justify-content: space-between;
 }
 
@@ -147,7 +147,7 @@ button {
     background-color: var(--black);
     text-decoration: none;
     color: var(--white);
-    border: 1px solid grey; 
+    border: 1px solid grey;
     padding: 2px 5px;
     border-radius: 2px;
     font-size: 12px;
@@ -393,8 +393,6 @@ h4 {
     margin-top: 1%;
 }
 
-/* responsiveness for smaller screen stops at 375px*/
-
 /* responsiveness smaller screen 476px and below took a different view port*/
 @media screen and (max-width: 476px) {
     .workspace {
@@ -403,7 +401,6 @@ h4 {
 
     #about {
         width: 100%;
-        padding: 0 5px;
     }
 
     .life {
@@ -441,8 +438,8 @@ h4 {
     }
 }
 
-/* responsiveness small screen 650px and below */
-@media screen and (max-width: 650px) {
+/* responsiveness small screen 700px and below */
+@media screen and (max-width: 700px) {
     .name {
         font-size: 25px;
     }
@@ -570,7 +567,7 @@ h4 {
 }
 
 /* reaponsivness for tablet view */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1000px) {
     .left {
         background-color: var(--orange);
         width: 50%;
