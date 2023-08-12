@@ -27,7 +27,7 @@
 body {
   background-color: var(--background);
   font-family: "Archivo", sans-serif;
-  font-size: small;
+  /* font-size: small; */
   line-height: -50%;
 }
 
