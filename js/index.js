@@ -20,14 +20,14 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
 
 
 let viewAllBtn = document.querySelector('#view-all');
-let currentItem = 3;
+let currentItem = 1;
 
 viewAllBtn.onclick = () => {
-  let cards = [...document.querySelectorAll('.center .titles .cards')];
-  for (var i = currentItem; i < currentItem + 5; i++) {
+  let cards = [...document.querySelectorAll('.center .menu_card')];
+  for (var i = currentItem; i < currentItem + 2; i++) {
     cards[i].style.display = 'inline-block';
   }
-  currentItem += 6;
+  currentItem += 7;
   if (currentItem >= cards.length) {
     viewAllBtn.style.display = "none";
   }
