@@ -28,7 +28,7 @@ body {
     background-color: var(--background);
     font-family: 'Archivo', sans-serif;
     font-size: small;
-    line-height: -50%;
+    /* line-height: -50%; */
 }
 
 /* orange div */
@@ -204,7 +204,7 @@ button {
 #resume {
     background-color: var(--orange);
     color: var(--white);
-    padding: 5px 4%;
+    padding: 5px 3%;
     border-radius: 2px;
     text-decoration: none;
     font-size: 12px;
@@ -216,7 +216,7 @@ button {
     text-decoration: none;
     color: var(--white);
     border: 1px solid grey;
-    padding: 5px 4%;
+    padding: 5px 3%;
     border-radius: 2px;
     font-size: 12px;
 }
