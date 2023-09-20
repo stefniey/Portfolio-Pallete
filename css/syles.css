@@ -184,21 +184,21 @@ header {
 
 
 /* buttons */
-.btn-all {
-    display: flex;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    gap: 1%;
-    padding: 5% 0 0 0;
-}
-
 button {
     background-color: var(--orange);
     color: var(--white);
     border: none;
     padding: 4px 5px;
     border-radius: 2px;
+}
+
+.btn-all {
+    display: flex;
+    margin: auto;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 1%;
+    padding: 5% 0 0 0;
 }
 
 #resume {
@@ -216,9 +216,9 @@ button {
     text-decoration: none;
     color: var(--white);
     border: 1px solid grey;
-    padding: 6px 3%;
+    padding: 5px 3%;
     border-radius: 2px;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .btn:hover {
