@@ -216,9 +216,9 @@ button {
     text-decoration: none;
     color: var(--white);
     border: 1px solid grey;
-    padding: 5px 3%;
+    padding: 6px 3%;
     border-radius: 2px;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .btn:hover {
