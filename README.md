@@ -19,9 +19,8 @@ This project is my first personal portfolio website, created as a beginner in we
 1. [Project Structure](#project-structure)
 2. [Getting Started](#getting-started)
 3. [Technology Stack](#technology-stack)
-4. [Screenshots](#screenshots)
-5. [Contributing](#contributing)
-6. [License](#license)
+4. [Contributing](#contributing)
+5. [License](#license)
 
 ## Project Structure
 Here's an overview of the project's folder structure:
