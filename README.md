@@ -1,44 +1,57 @@
-# Portfolio-Pallete
+# personal-portfolio
 
-Welcome to my personal portfolio! This repository showcases my skills and experience as a tech professional. Built using HTML, CSS, 
-and JavaScript, this portfolio represents my journey and expertise in the tech industry.
+## A Beginner's Portfolio Built with HTML & CSS
+This project is my first personal portfolio website, created as a beginner in web development. The website showcases my skills, projects, and contact information in a simple and clean design using only HTML and CSS. It is responsive, ensuring a good user experience on both mobile and desktop devices.
 
-## Features
+## Key Features
+- **Introduction Section**: A brief introduction to who I am and what I do.
+- **Skills Section**: A display of the technologies and skills I've learned and worked with.
+- **Projects Section**: Highlights some of the projects I’ve worked on, demonstrating my practical knowledge.
+- **Contact Section**: A contact form to get in touch with me for potential opportunities or inquiries.
+- **Responsive Design**: The portfolio is fully responsive, providing a smooth experience on both small and large screens.
 
-1. *Responsive Design*: The portfolio is designed to be responsive, ensuring a seamless viewing experience across various devices and 
-2. screen sizes. Whether you're browsing from a desktop, laptop, tablet, or mobile device, the content will adapt accordingly.
+## Technical Details
+- **HTML**: Used for structuring the content, including sections for introduction, skills, projects, and contact.
+- **CSS**: Used for styling the portfolio, creating a clean and modern design, and ensuring responsiveness.
+- **Responsive Design**: Media queries are used to adjust layout and styling for different screen sizes.
 
-2. *Projects Showcase*: Explore my projects and their details, including descriptions, technologies used, and links to live demos or 
-3. repositories. Get a glimpse into my technical capabilities and the range of projects I've worked on.
+## Table of Contents
+1. [Project Structure](#project-structure)
+2. [Getting Started](#getting-started)
+3. [Technology Stack](#technology-stack)
+4. [Screenshots](#screenshots)
+5. [Contributing](#contributing)
+6. [License](#license)
 
-3. *Skills and Expertise*: Discover the technologies, programming languages, frameworks, and tools I specialize in. 
-4. Gain insights into my technical skills and proficiency in different areas of software development.
+## Project Structure
+Here's an overview of the project's folder structure:
 
-4. *Work Experience*: Learn about my professional background, including my previous roles, responsibilities, and notable accomplishments.
-5.  Get a sense of my industry experience and the projects I have contributed to.
+```
+- index.html       # Main HTML file containing the structure of the portfolio
+- styles.css       # CSS file for styling the portfolio
+- images/           # Folder containing images used in the portfolio (e.g., profile picture)
+```
 
-5. *Contact and Connect*: Find ways to get in touch with me, whether it's for potential collaboration, job opportunities, 
-6. or general inquiries. Connect with me on professional platforms such as LinkedIn, GitHub, or my personal website.
+## Getting Started
 
-## Installation
+- **Prerequisites**:
+  - A browser (e.g., Chrome, Firefox, etc.)
 
-To run the portfolio locally, follow these steps:
+- **Installation**:
+  - **Clone the repository**:
+    ```bash
+    git clone https://github.com/stefniey/portfolio-pallete.git
+    cd portfolio-pallete
+    ```
 
-1. Clone this repository to your local machine using the command:
-   
-   git clone https://github.com/your-username/your-portfolio.git
-   
+  - **Open the portfolio**: Open the `index.html` file in your preferred browser to view the portfolio.
 
-2. Navigate to the project directory:
-   
-   cd your-portfolio
-   
-3. Open the `index.html` file in your preferred web browser.
+## Technology Stack
+- **HTML**: For content structure and layout.
+- **CSS**: For styling and responsive design.
 
-## Contact
+## Contributing
+This is a personal project. However, if you would like to contribute, feel free to fork the repository, create a new branch for your changes, and submit a pull request.
 
-I look forward to connecting with you! If you have any questions or would like to get in touch, please reach out to me via 
-email at [stephaniealor7@gmail.com]. Let's connect and explore opportunities together.
-
-Thank you for visiting my portfolio! Explore my work, learn more about me, and witness my passion for technology through this
-personal showcase.
+## License
+This project is licensed under the MIT License.
