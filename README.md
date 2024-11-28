@@ -39,8 +39,8 @@ Here's an overview of the project's folder structure:
 - **Installation**:
   - **Clone the repository**:
     ```bash
-    git clone https://github.com/stefniey/portfolio-pallete.git
-    cd portfolio-pallete
+    git clone https://github.com/stefniey/portfolio.git
+    cd portfolio
     ```
 
   - **Open the portfolio**: Open the `index.html` file in your preferred browser to view the portfolio.
